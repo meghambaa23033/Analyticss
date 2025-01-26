@@ -31,8 +31,8 @@ This repository contains a **Streamlit app** for predicting recruitment rates in
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/clinical-trial-recruitment-prediction.git
-   cd clinical-trial-recruitment-prediction
+   git clone https://github.com/meghambaa23033/Nest.git
+   cd Nest
    ```
 
 2. Install the required dependencies:
@@ -42,7 +42,7 @@ This repository contains a **Streamlit app** for predicting recruitment rates in
 
 3. Ensure the following files are present in the repository:
    - `app.py` (Streamlit app code)
-   - `best_xgboost_model.pkl` (trained XGBoost model)
+   - `model.pkl` (trained XGBoost model)
    - `scaler.pkl` (fitted scaler for feature scaling)
 
 ---
