@@ -21,8 +21,6 @@ Analyze conversational data to extract features like sentiment, intent understan
 Use machine learning models (supervised or semi-supervised) to predict satisfaction scores.
 Perform exploratory data analysis (EDA) and document the process in a Python notebook.
 
-
-This repository contains an application for predicting recruitment rates in clinical trials. The app uses a trained machine learning model (XGBoost) to estimate the recruitment rate (patients per site per month) based on various trial features such as enrollment, trial duration, sponsor experience, and more. The app is designed to assist clinical trial planners in optimizing recruitment strategies and improving trial efficiency.
 ---
 
 ## Features
