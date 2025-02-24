@@ -6,9 +6,13 @@ import numpy as np
 # Initialize the FastAPI app
 app = FastAPI()
 
-# Load the saved model and scaler
-model = joblib.load("random_forest_model.pkl")
-scaler = joblib.load("scaler.pkl")
+# Load the trained model and scaler
+model_path = "D:/IBA/model.pkl"
+scaler_path = "D:/IBA/scaler.pkl"
+
+# Load the model and scaler
+model = joblib.load(model_path)
+scaler = joblib.load(scaler_path)
 
 # Define the selected features
 selected_features = [
