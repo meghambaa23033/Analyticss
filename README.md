@@ -1,25 +1,6 @@
-# Case Overview
+**NLP-Based Conversational Data**
 
-
-The goal is to predict customer satisfaction scores for conversations with a bank's chatbot (Smart Digital Assistant) using conversational data. This is crucial for understanding customer sentiment when explicit feedback is unavailable.
-
-Objective
-Classify conversations into three satisfaction levels:
-
-Satisfied
-Neutral
-Not Satisfied
-Dataset
-The dataset contains customer-agent conversations with features like:
-
-conversation_id: Unique ID for each conversation.
-Speaker: Customer or Agent.
-Date_time: Timestamp of each utterance.
-Dialogue: Text of the conversation.
-Approach
-Analyze conversational data to extract features like sentiment, intent understanding, resolution time, and query resolution status.
-Use machine learning models (supervised or semi-supervised) to predict satisfaction scores.
-Perform exploratory data analysis (EDA) and document the process in a Python notebook.
+This repository contains a Streamlit app for predicting customer satisfaction in chatbot interactions. The app uses a trained machine learning model to classify customer satisfaction into three categories: Satisfied, Neutral, and Not Satisfied. It leverages various conversational features such as customer sentiment, intent understanding, resolution time, and query resolution status. The app is designed to assist customer service teams in evaluating chatbot performance, identifying areas for improvement, and enhancing overall customer experience. The goal is to predict customer satisfaction scores for conversations with a bank's chatbot (Smart Digital Assistant) using conversational data. This is crucial for understanding customer sentiment when explicit feedback is unavailable. Analyze conversational data to extract features like sentiment, intent understanding, resolution time, and query resolution status,use machine learning models (supervised or semi-supervised) to predict satisfaction scores and perform exploratory data analysis (EDA) and document the process in a Python notebook.
 
 ---
 
